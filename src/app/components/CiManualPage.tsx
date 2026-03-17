@@ -1,9 +1,9 @@
 import { Link } from "react-router";
 import { motion } from "motion/react";
 import { ArrowLeft } from "lucide-react";
-import imgLeftLogo from "figma:asset/ffa9ff7b5425bac03ee1076a12a02f066b459faa.png";
-import imgEllipse38146 from "figma:asset/ed1a0b2bd2cd8f636d4a3fc929f12d2f82f65f8f.png";
-import svgPaths from "../../imports/svg-m4b78paeab";
+const imgLeftLogo = "https://via.placeholder.com/200x80?text=Logo";
+const imgEllipse38146 = "https://via.placeholder.com/80x80";
+import svgPaths from "../imports/svg-m4b78paeab";
 
 /** 색상 스와치 */
 function ColorSwatch({
