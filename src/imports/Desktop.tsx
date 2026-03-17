@@ -9,10 +9,10 @@ import { getVerse } from "../app/components/verseStore";
 import { verifyPassword } from "../app/components/passwordStore";
 import { getDonationAccount } from "../app/components/donationStore";
 import svgPaths from "./svg-m4b78paeab";
-import imgLeftLogo from "figma:asset/ffa9ff7b5425bac03ee1076a12a02f066b459faa.png";
-import imgEllipse38146 from "figma:asset/ed1a0b2bd2cd8f636d4a3fc929f12d2f82f65f8f.png";
-import imgContactLinks from "figma:asset/1fef053b2916a35cbc0d2187f18e7413db7526ab.png";
-import imgQrCode from "figma:asset/4ce6af31437a078bbfbacc1f3fd66b93f1ac0598.png";
+const imgLeftLogo = "https://via.placeholder.com/200x80?text=Logo";
+const imgEllipse38146 = "https://via.placeholder.com/80x80";
+const imgContactLinks = "https://via.placeholder.com/300x80?text=Contact+Links";
+const imgQrCode = "https://via.placeholder.com/160x160?text=QR";
 
 const fallbackSlideImages = [
   "https://images.unsplash.com/photo-1769755411779-e4c43e7b7742?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxjaHVyY2glMjB5b3V0aCUyMGdyb3VwJTIwZ2F0aGVyaW5nfGVufDF8fHx8MTc3MzU2NDI2OXww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
