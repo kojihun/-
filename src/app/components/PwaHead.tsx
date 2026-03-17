@@ -1,5 +1,5 @@
 import { useEffect } from "react";
-import imgLeftLogo from "figma:asset/";
+const imgLeftLogo = "https://via.placeholder.com/200x80?text=Logo";
 
 /**
  * PWA 설정을 동적으로 <head>에 삽입합니다.
